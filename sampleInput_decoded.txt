@@ -1,0 +1,8 @@
+Encoding
+A high level view of the encoding algorithm is shown here:
+
+Initialize the dictionary to contain all strings of length one.
+Find the longest string W in the dictionary that matches the current input.
+Emit the dictionary index for W to output and remove W from the input.
+Add W followed by the next symbol in the input to the dictionary.
+Go to Step 2.
